@@ -9,6 +9,7 @@
 body {
   background: #1db954;
   font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
 a {
@@ -68,16 +69,24 @@ ul li {
 }
 #contact {
   background: #191414;
-  height: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#submit {
-  text-align: center;
 }
 
 footer {
   bottom: 0;
+}
+
+#top-footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+input {
+  margin: 5px;
+}
+
+#bottom-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2rem;
 }
